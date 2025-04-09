@@ -27,6 +27,9 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  output: 'export',
+  basePath: '/travel-planner',
+  assetPrefix: '/travel-planner/',
 }
 
 if (userConfig) {
