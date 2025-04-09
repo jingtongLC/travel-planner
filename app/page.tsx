@@ -124,7 +124,21 @@ export default function Home() {
                     <span>交通便利，可轻松抵达主要景点</span>
                   </div>
                 </div>
-                <Button className="mt-4 w-full bg-purple-600 hover:bg-purple-700">立即预订</Button>
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold">新宿利时达酒店</h3>
+                  <p className="text-sm text-gray-500">东京都新宿区</p>
+                  <div className="mt-4 flex items-center justify-between">
+                    <span className="text-2xl font-bold text-rose-500">¥1,200</span>
+                    <a 
+                      href="https://hotel.alitrip.com/hotel_detail2.htm?spm=181.11197625.4973973.25.3f3f4a0ar00yll&shid=50363372&_output_charset=utf8" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="rounded-full bg-rose-500 px-4 py-2 text-sm font-medium text-white hover:bg-rose-600"
+                    >
+                      立即预订
+                    </a>
+                  </div>
+                </div>
               </CardContent>
             </Card>
 
@@ -177,7 +191,21 @@ export default function Home() {
                     <span>健身房，游泳池设施</span>
                   </div>
                 </div>
-                <Button className="mt-4 w-full bg-purple-600 hover:bg-purple-700">立即预订</Button>
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold">池袋阳光城王子酒店</h3>
+                  <p className="text-sm text-gray-500">东京都丰岛区</p>
+                  <div className="mt-4 flex items-center justify-between">
+                    <span className="text-2xl font-bold text-rose-500">¥1,500</span>
+                    <a 
+                      href="https://hotel.alitrip.com/hotel_detail2.htm?spm=181.11197625.4973973.7.3f3f4a0ar00yll&shid=50363385&_output_charset=utf8" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="rounded-full bg-rose-500 px-4 py-2 text-sm font-medium text-white hover:bg-rose-600"
+                    >
+                      立即预订
+                    </a>
+                  </div>
+                </div>
               </CardContent>
             </Card>
 
@@ -229,7 +257,21 @@ export default function Home() {
                     <span>距离新宿购物和娱乐区都很近</span>
                   </div>
                 </div>
-                <Button className="mt-4 w-full bg-purple-600 hover:bg-purple-700">立即预订</Button>
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold">东新宿E酒店</h3>
+                  <p className="text-sm text-gray-500">东京都新宿区</p>
+                  <div className="mt-4 flex items-center justify-between">
+                    <span className="text-2xl font-bold text-rose-500">¥1,800</span>
+                    <a 
+                      href="https://hotel.alitrip.com/hotel_detail2.htm?spm=181.11197625.4973973.4.3f3f4a0ar00yll&shid=51108444&_output_charset=utf8" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="rounded-full bg-rose-500 px-4 py-2 text-sm font-medium text-white hover:bg-rose-600"
+                    >
+                      立即预订
+                    </a>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
