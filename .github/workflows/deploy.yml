@@ -34,13 +34,13 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=4096
           NPM_CONFIG_REGISTRY: https://registry.npmjs.org
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
-          publish_branch: gh-pages
-          force_orphan: true
+          path: ./out
+
   deploy:
     environment:
       name: github-pages
