@@ -25,9 +25,9 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
-      - name: Install SWC dependencies
-        run: npm install @next/swc-linux-x64-gnu
+        run: |
+          npm install --legacy-peer-deps
+          npm install @next/swc-linux-x64-gnu --save-dev
       - name: Build with Next.js
         run: npm run build
         env:
