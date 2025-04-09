@@ -11,10 +11,12 @@ const nextConfig = {
   },
   experimental: {
     webpackBuildWorker: true,
-    parallelServerBuildTraces: true,
     parallelServerCompiles: true,
+    parallelServerBuildTraces: true,
   },
-  output: 'export'
+  output: 'export',
+  basePath: '/travel-planner',
+  assetPrefix: '/travel-planner/',
 }
 
 export default nextConfig
