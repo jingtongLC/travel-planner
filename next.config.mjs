@@ -10,9 +10,6 @@ const nextConfig = {
     unoptimized: true,
     domains: ['jingtonglc.github.io'],
   },
-  experimental: {
-    webpackBuildWorker: true,
-  },
   output: 'export',
   basePath: '/travel-planner',
   assetPrefix: '/travel-planner/',
