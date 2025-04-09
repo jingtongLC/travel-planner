@@ -14,7 +14,7 @@ export default function Home() {
       <div className="relative px-4 py-20 text-white md:px-6 lg:px-8">
         {/* Background Image */}
         <div className="absolute inset-0 z-0 overflow-hidden">
-          <Image src="/images/hero-background.gif" alt="Background" fill className="object-cover" priority />
+          <Image src="/travel-planner/images/hero-background.gif" alt="Background" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-black/30"></div> {/* Overlay to ensure text readability */}
         </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
             {/* Hotel Card 1 */}
             <Card className="overflow-hidden">
               <div className="relative h-48 w-full">
-                <Image src="/images/hotel1.png" alt="新宿利时达酒店" fill className="object-cover" />
+                <Image src="/travel-planner/images/hotel1.png" alt="新宿利时达酒店" fill className="object-cover" />
                 <Badge className="absolute left-3 top-3 bg-rose-500 text-white hover:bg-rose-600">精品之选</Badge>
               </div>
               <CardContent className="p-4">
@@ -131,7 +131,7 @@ export default function Home() {
             {/* Hotel Card 2 */}
             <Card className="overflow-hidden">
               <div className="relative h-48 w-full">
-                <Image src="/images/hotel2.png" alt="池袋阳光城王子酒店" fill className="object-cover" />
+                <Image src="/travel-planner/images/hotel2.png" alt="池袋阳光城王子酒店" fill className="object-cover" />
                 <Badge className="absolute left-3 top-3 bg-rose-500 text-white hover:bg-rose-600">最受欢迎</Badge>
               </div>
               <CardContent className="p-4">
@@ -184,7 +184,7 @@ export default function Home() {
             {/* Hotel Card 3 */}
             <Card className="overflow-hidden">
               <div className="relative h-48 w-full">
-                <Image src="/images/hotel3.png" alt="东新宿E酒店" fill className="object-cover" />
+                <Image src="/travel-planner/images/hotel3.png" alt="东新宿E酒店" fill className="object-cover" />
                 <Badge className="absolute left-3 top-3 bg-rose-500 text-white hover:bg-rose-600">超高评价</Badge>
               </div>
               <CardContent className="p-4">

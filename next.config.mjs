@@ -8,6 +8,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    domains: ['jingtonglc.github.io'],
   },
   experimental: {
     webpackBuildWorker: true,
@@ -15,6 +16,7 @@ const nextConfig = {
   output: 'export',
   basePath: '/travel-planner',
   assetPrefix: '/travel-planner/',
+  trailingSlash: true,
 }
 
 export default nextConfig
