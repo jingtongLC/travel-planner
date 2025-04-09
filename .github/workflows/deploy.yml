@@ -25,14 +25,17 @@ jobs:
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
-      - name: Install pnpm
-        run: npm install -g pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
       - name: Install dependencies
         run: |
-          npm install --legacy-peer-deps
-          npm install @next/swc-linux-x64-gnu --save-dev
+          pnpm install --legacy-peer-deps
+          pnpm install @next/swc-linux-x64-gnu --save-dev
       - name: Build with Next.js
-        run: npm run build
+        run: pnpm run build
         env:
           NODE_OPTIONS: --max_old_space_size=4096
           NPM_CONFIG_REGISTRY: https://registry.npmjs.org
