@@ -14,7 +14,6 @@ const nextConfig = {
   basePath: '/travel-planner',
   assetPrefix: '/travel-planner/',
   trailingSlash: true,
-  swcMinify: false,
   experimental: {
     forceSwcTransforms: false,
   },
